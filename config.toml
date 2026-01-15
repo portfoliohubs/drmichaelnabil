@@ -174,47 +174,74 @@ defaultContentLanguage = "en"
     # [[params.education.certificates]]
     #   title = "Advanced Endodontics Course"
     #   image = "cert1.jpg"
-
+#الحشو التجميلى
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
-    category = "Cosmetic Dentistry"
-    category_ar = "طب الأسنان التجميلي"
+    category = "Cosmetic"
+    category_ar = "الحشو التجميلى للاسنان الامامية"
     
     [[params.clinical_cases.cases]]
-      photo = "https://via.placeholder.com/600x600/10b981/ffffff?text=Case"
-      alt = "Smile makeover with veneers"
-      description = "Smile makeover with veneers"
-      alt_ar = "تجميل الابتسامة بالقشور"
-      description_ar = "تجميل الابتسامة بالقشور"
+      photo = "https://github.com/user-attachments/assets/3d2515ed-c39e-4fc8-b7ea-e0bff4c97956"
+      alt = "class IV Composite"
+      description = "Treatment with composite"
+      alt_ar = "تجميل الابتسامة بالحشو الليزر الابيض الكمبوزيت"
+      description_ar = "تجميل الابتسامة بالحشو التجميلى"
     
     [[params.clinical_cases.cases]]
-      photo = "https://via.placeholder.com/600x600/10b981/ffffff?text=Case"
-      alt = "Teeth whitening treatment"
-      description = "Teeth whitening treatment"
-      alt_ar = "علاج تبييض الأسنان"
-      description_ar = "علاج تبييض الأسنان"
+      photo = "https://github.com/user-attachments/assets/10c07190-9c8d-4503-babf-1ec32f1b97cf"
+      alt = "Anterior Teeth class IV composite"
+      description = "Treatment with composite"
+      alt_ar = "تجميل الابتسامة بالحشو الليزر الابيض الكمبوزيت"
+      description_ar = "تجميل الابتسامة بالحشو التجميلى"
 
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/1544f0fe-8c82-4b13-8d60-54f39374f4b9"
-      alt = "ENDO treatment"
-      description = "ENDO treatment"
-      alt_ar = "علاج تبييض الأسنان"
-      description_ar = " علاج حشو عصب الأسنان"
-
-
+#التركيبات الثابته
   [[params.clinical_cases]]
     enabled = true
-    category = "Restorative Dentistry"
-    category_ar = "طب الأسنان الترميمي"
+    category = "fixed prosthodontics"
+    category_ar = "التركيبات الثابته"
     
     [[params.clinical_cases.cases]]
-      photo = "https://via.placeholder.com/600x600/10b981/ffffff?text=Case"
-      alt = "Crown and bridge restoration"
-      description = "Crown and bridge restoration"
-      alt_ar = "ترميم التيجان والجسور"
-      description_ar = "ترميم التيجان والجسور"
+      photo = "https://github.com/user-attachments/assets/18a41d89-0b74-485d-9423-cef550e7b0cf"
+      alt = "4 E-MAX Crowns"
+      description = "4 E-MAX Crowns"
+      alt_ar = "اربعة تركيبات ثابته للاسنان الامامية"
+      description_ar = "اربعة تركيبات ثابته للاسنان الامامية"
 
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f3970e11-f3bc-44fb-b5b2-199e881c18b7"
+      alt = "bridge for missed upper premolar"
+      description = "bridge for missed upper premolar"
+      alt_ar = "كوبرى لتعويض ضرس فى الفك العلوى"
+      description_ar = "كوبرى لتعويض ضرس فى الفك العلوى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f89ebebc-2e58-478a-b784-24656b613ed5"
+      alt = "bridge for missed lower molar"
+      description = "bridge for missed lower molar"
+      alt_ar = "كوبرى لتعويض ضرس فى الفك السفلى"
+      description_ar = "كوبرى لتعويض ضرس فى الفك السفلى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/109fc3e5-10a3-4bd0-b733-2cb12c72adf3"
+      alt = "bridge for missed upper 2 pmolars"
+      description = "bridge for missed upper 2 pmolars"
+      alt_ar = "كوبرى لتعويض ضرسين فى الفك العلوى"
+      description_ar = "كوبرى لتعويض ضرسين فى الفك العلوى"      
+      
+      #حشو العصب
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontic Treatment"
+    category_ar = "حشو العصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0ecb33cb-22b5-424c-8b04-60f6178d71d9"
+      alt = "Endo lower Premolar"
+      description = "Endo lower Premolar"
+      alt_ar = "حشو عصب لضرس بالفك السفلى"
+      description_ar = "حشو عصب لضرس بالفك السفلى"
+      
   # Contact Section
   [params.contact]
     phone = "+201271476215"
