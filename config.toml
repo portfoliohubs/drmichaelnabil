@@ -1,0 +1,350 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Michael Nabil"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Michael Nabil"
+    tagline = "Dental Specialist"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    profile_image_alt = "Profile photo of Dr. Michael Nabil"
+    
+    [params.hero.current_position]
+      role = "Dental Specialist"
+      clinic = "michael nabil dental clinic"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Michael Nabil"
+    doctor_name_ar = "د. مايكل نبيل"
+    site_name = "Dr. Michael Nabil"
+    og_image = "https://github.com/user-attachments/assets/91a80bc5-b0ea-415a-9f29-fca6d3dfd0ba"
+    favicon_image = "https://github.com/user-attachments/assets/a6e2c047-3853-4c37-8af3-73f1c7917172"
+    twitter_handle = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Michael Nabil",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. ماكل نبيل",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور مايكل نبيل",
+      "عيادة مايكل نبيل",
+      "عيادة اسنان الشرقية",
+      "مايكل نبيل اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Oral Surgery",
+      "Endodontics",
+      "Prosthodontics",
+      "Cosmetic Dentistry"
+    ]
+    
+    digital = [
+      "Dental portfolio creator full coding",
+      "dental website full coding",
+      "Digital Documentation",
+      "Microsoft PowerPoint (professional)",
+      "Microsoft Excel"
+    ]
+    
+    soft = [
+      "Pediatric Patient Management",
+      "Patient Communication",
+      "Treatment Planning",
+      "Time Management",
+      "Team Leadership",
+      "Emergency Response"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Egyptian Russian University Faculty of Dentistry"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Started Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2022"
+      event = "start marketing in Dental companies"
+    
+    [[params.education.timeline]]
+      year = "2023"
+      event = "Dental companies Sales leader"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Specialized professional PowerPoint"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025-2026"
+      event = "Internship at University Hospital"
+
+    [[params.education.timeline]]
+      year = "2026"
+      event = "CEO of DentalHubs Agency"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Cosmetic Dentistry"
+    category_ar = "طب الأسنان التجميلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://via.placeholder.com/600x600/10b981/ffffff?text=Case"
+      alt = "Smile makeover with veneers"
+      description = "Smile makeover with veneers"
+      alt_ar = "تجميل الابتسامة بالقشور"
+      description_ar = "تجميل الابتسامة بالقشور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://via.placeholder.com/600x600/10b981/ffffff?text=Case"
+      alt = "Teeth whitening treatment"
+      description = "Teeth whitening treatment"
+      alt_ar = "علاج تبييض الأسنان"
+      description_ar = "علاج تبييض الأسنان"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1544f0fe-8c82-4b13-8d60-54f39374f4b9"
+      alt = "ENDO treatment"
+      description = "ENDO treatment"
+      alt_ar = "علاج تبييض الأسنان"
+      description_ar = " علاج حشو عصب الأسنان"
+
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Restorative Dentistry"
+    category_ar = "طب الأسنان الترميمي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://via.placeholder.com/600x600/10b981/ffffff?text=Case"
+      alt = "Crown and bridge restoration"
+      description = "Crown and bridge restoration"
+      alt_ar = "ترميم التيجان والجسور"
+      description_ar = "ترميم التيجان والجسور"
+
+  # Contact Section
+  [params.contact]
+    phone = "+20127176215"
+    whatsapp = "+20127176215"
+    email = "Michaelnabilofficial1@Gmail.com"
+    instagram = "https://www.instagram.com/michaelnabilofficial/"
+    facebook = "https://www.facebook.com/Micky1000000"
+    linkedin = "https://linkedin.com/in/yourprofile"
+    
+    [params.contact.location]
+      enabled = true
+      address = "مستشفيات جامعة الزقازيق -الزقازيق-الشرقية"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. ماكل نبيل"
+    tagline = "أخصائي طب الأسنان"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
+    
+    [params.ar.hero.current_position]
+      role = "أخصائي طب الأسنان"
+      clinic = "مستشفى جامعة الزقازيق"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحة الفم",
+      "علاج الجذور",
+      "التركيبات الثابتة والمتحركة",
+      "طب الأسنان التجميلي"
+    ]
+    
+    digital = [
+      "برمجة وإنشاء ملفات الأعمال السنية بالكامل",
+      "برمجة وإنشاء مواقع طب الأسنان بالكامل",
+      "التوثيق الرقمي",
+      "مايكروسوفت باوربوينت (احترافي)",
+      "مايكروسوفت إكسل"
+    ]
+    
+    soft = [
+      "إدارة مرضى الأطفال",
+      "التواصل مع المرضى",
+      "تخطيط العلاج",
+      "إدارة الوقت",
+      "القيادة الجماعية",
+      "الاستجابة للطوارئ"
+    ]
+    
+  
+  [params.ar.education]
+    university = "الجامعة الروسسية المصرية - كلية طب الأسنان"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "بدء الدراسة في كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "بدء العمل في التسويق لشركات طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "قائد فريق المبيعات لشركات طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "تخصص في تصميم عروض بوربوينت الاحترافية"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "فترة التدريب (الامتياز) في المستشفى الجامعي"
+
+    [[params.ar.education.timeline]]
+      event = "الرئيس التنفيذي لوكالة DentalHubs"  
+
+  [params.ar.contact.location]
+    address = "123 الشارع الرئيسي، المدينة، البلد"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
