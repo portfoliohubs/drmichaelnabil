@@ -234,12 +234,12 @@ defaultContentLanguage = "en"
 [params.ar]
   [params.ar.hero]
     name = "د. مايكل نبيل"
-    tagline = "طبيب اسنان امتياز"
+    tagline = "طبيب امتياز"
     graduation = "تخرج 2025 - كلية طب الأسنان"
     profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
     
     [params.ar.hero.current_position]
-      role = "طبيب اسنان امتياز"
+      role = "طبيب امتياز"
       clinic = "مستشفى جامعة الزقازيق"
   
 [params.ar.skills]
