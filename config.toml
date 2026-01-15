@@ -40,7 +40,7 @@ defaultContentLanguage = "en"
       "عيادة أسنان",
       "تجميل الأسنان",
       "ترميم الأسنان",
-      "د. ماكل نبيل",
+      "د. مايكل نبيل",
       "طبيب بالزقازيق",
       "عيادة بالزقازيق",
       "دكتور مايكل نبيل",
@@ -233,7 +233,7 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "د. ماكل نبيل"
+    name = "د. مايكل نبيل"
     tagline = "أخصائي طب الأسنان"
     graduation = "تخرج 2025 - كلية طب الأسنان"
     profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
