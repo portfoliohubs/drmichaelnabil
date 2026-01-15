@@ -7,14 +7,14 @@ defaultContentLanguage = "en"
   # Hero Section
   [params.hero]
     name = "Dr. Michael Nabil"
-    tagline = "Dental Specialist"
+    tagline = "internship Dentist"
     graduation = "Graduated 2025 - Faculty of Dentistry"
     profile_image = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
     profile_image_alt = "Profile photo of Dr. Michael Nabil"
     
     [params.hero.current_position]
-      role = "Dental Specialist"
-      clinic = "michael nabil dental clinic"
+      role = "internship Dentist"
+      clinic = "Zagazig University Hospital"
 
   [params.seo]
     description = "Professional dental portfolio"
