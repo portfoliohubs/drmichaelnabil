@@ -1,35 +1,35 @@
-baseURL = "https://portfoliohubs.github.io/drhossamlotfy/"
+baseURL = "https://portfoliohubs.github.io/MICKY/"
 languageCode = "en-us"
-title = "Dr. Hossam Lotfy"
+title = "Dr. Michael Nabil"
 defaultContentLanguage = "en"
 
 [params]
   # Hero Section
   [params.hero]
-    name = "Dr. Hossam Lotfy"
-    tagline = "Endodontist"
-    graduation = "Graduated 2021 - Faculty of Dentistry"
-    profile_image = "https://github.com/user-attachments/assets/57302af1-dbce-4a6c-8773-f74fc6d9669f"
-    profile_image_alt = "Profile photo of Dr. Hossam Lotfy"
+    name = "Dr. Michael Nabil"
+    tagline = "internship Dentist"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    profile_image_alt = "Profile photo of Dr. Michael Nabil"
     
     [params.hero.current_position]
-      role = "Endodontist"
+      role = "internship Dentist"
       clinic = "Zagazig University Hospital"
 
   [params.seo]
     description = "Professional dental portfolio"
-    doctor_name_en = "Dr. Hossam Lotfy"
-    doctor_name_ar = "د. حسام لطفى"
-    site_name = "Dr. Hossam Lotfy"
-    og_image = ""
-    favicon_image = ""
-    twitter_handle = ""
+    doctor_name_en = "Dr. Michael Nabil"
+    doctor_name_ar = "د. مايكل نبيل"
+    site_name = "Dr. Michael Nabil"
+    og_image = "https://github.com/user-attachments/assets/91a80bc5-b0ea-415a-9f29-fca6d3dfd0ba"
+    favicon_image = "https://github.com/user-attachments/assets/89fda6bd-3a72-4d9e-bc85-13ac84414951"
+    twitter_handle = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
     keywords = [
       "dentist",
       "dental clinic",
       "cosmetic dentistry",
       "restorative dentistry",
-      "Dr. Hossam Lotfy",
+      "Dr. Michael Nabil",
       "zagazig",
       "DENTIST IN ZAGAZIG",
       "DENTAL CLINIC IN ZAGAZIG",
@@ -40,13 +40,30 @@ defaultContentLanguage = "en"
       "عيادة أسنان",
       "تجميل الأسنان",
       "ترميم الأسنان",
-      "د. حسام لطفى",
+      "د. مايكل نبيل",
       "طبيب بالزقازيق",
       "عيادة بالزقازيق",
-      "دكتور حسام لطفى",
-      "عيادة حسام لطفى",
+      "دكتور مايكل نبيل",
+      "عيادة مايكل نبيل",
       "عيادة اسنان الشرقية",
-      "حسام لطفى اسنان"
+      "مايكل نبيل اسنان", 
+      "دكتور مايكل نبيل الجامعة الروسية",
+      " دكتور مايكل نبيل اسنان الروسية", 
+      "دكتور مايكل نبيل اسنان ", 
+      "دكتور مايكل نبيل اسنان بدر", 
+      " دكتور مايكل نبيل اسنان الزقازيق", 
+      "دكتور أسنان", 
+      " دكتور مايكل اسنان",
+      "عيادة أسنان", 
+      " مركز اسنان", 
+      "عيادة اسنان الشرقية",
+      "مواقع طب اسنان",
+      "موقع طبيب اسنان",
+      "موقع عيادة اسنان",
+      "اشطر دكتور اسنان فى الزقازيق",
+      "اشطر دكتور",
+      "اشطر دكتور اسنان",
+      "موقع بالبرمجة لطبيب اسنان"
     ]
 
   [params.integrations]
@@ -104,35 +121,37 @@ defaultContentLanguage = "en"
   # Skills Section
   [params.skills]
     clinical = [
-      "Cosmetic professional",
+      "Oral Surgery",
+      "Endodontics",
       "Prosthodontics",
-      "Endorotics",
-      "Surgery & implant",
-      "Pedodontics"
+      "Cosmetic Dentistry"
     ]
     
     digital = [
-      "Exocad",
-      "Cadcam",
-      "Digital smile design",
-      "Dental photography",
-      "Digital marketing",
-      "Photoshope",
-      "Powerpoint"
+      "Dental portfolio creator full coding",
+      "dental website full coding",
+      "Digital Documentation",
+      "Microsoft PowerPoint (professional)",
+      "Microsoft Excel"
     ]
     
     soft = [
-      "Ability to provide excellent patient care and communicate effectively."
+      "Pediatric Patient Management",
+      "Patient Communication",
+      "Treatment Planning",
+      "Time Management",
+      "Team Leadership",
+      "Emergency Response"
     ]
 
   # Education Section
   [params.education]
-    university = "Zagazig University"
-    graduation_year = "2021"
+    university = "Egyptian Russian University Faculty of Dentistry"
+    graduation_year = "2025"
     
     [params.education.master]
-      obtained = true
-      title = "Master in Endodontics"
+      obtained = false
+      title = "Master in Oral Medicine"
       year = "2024"
     
     [params.education.phd]
@@ -141,12 +160,32 @@ defaultContentLanguage = "en"
       year = "2028"
     
     [[params.education.timeline]]
-      year = "2016"
+      year = "2020"
       event = "Started Faculty of Dentistry"
     
     [[params.education.timeline]]
-      year = "2021"
-      event = "Graduated"
+      year = "2022"
+      event = "start marketing in Dental companies"
+    
+    [[params.education.timeline]]
+      year = "2023"
+      event = "Dental companies Sales leader"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Specialized professional PowerPoint"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025-2026"
+      event = "Internship at University Hospital"
+
+    [[params.education.timeline]]
+      year = "2026"
+      event = "CEO of DentalHubs Agency"
     
     # Certificates (images will be uploaded via GitHub issues)
     # [[params.education.certificates]]
@@ -156,131 +195,125 @@ defaultContentLanguage = "en"
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
-    category = "operative and esthetics"
-    category_ar = "الحشوات التجميلية"
+    category = "Cosmetic"
+    category_ar = "الحشو التجميلى للاسنان الامامية"
     
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/a487d8dc-19c0-4ca4-9a1f-c819ec501096"
-      alt = "Composite application after caries removal from lower right 4&5 class V"
-      description = "Composite application after caries removal from lower right 4&5 class V"
-      alt_ar = "ازاله تسوس بالضروس السفليه في اتجاه اللثه ووضع حشو ليزر ضرئي مشابه للون وشكل الضروس الطبيعية"
-      description_ar = "ازاله تسوس بالضروس السفليه في اتجاه اللثه ووضع حشو ليزر ضرئي مشابه للون وشكل الضروس الطبيعية"
+      photo = "https://github.com/user-attachments/assets/3d2515ed-c39e-4fc8-b7ea-e0bff4c97956"
+      alt = "class IV Composite"
+      description = "Treatment with composite"
+      alt_ar = "تجميل الابتسامة بالحشو الليزر الابيض الكمبوزيت"
+      description_ar = "تجميل الابتسامة بالحشو التجميلى"
     
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/1442aae1-3132-4d44-b59f-08df6878353b"
-      alt = "Direct composite veneer"
-      description = "Direct composite veneer"
-      alt_ar = "قشرة تجميليه علي الاسنان الاماميه باستخدام حشو الليزر التجميلي"
-      description_ar = "قشرة تجميليه علي الاسنان الاماميه باستخدام حشو الليزر التجميلي"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/23e8b7e8-3b69-4548-b291-56551994b647"
-      alt = "composite application after caries removal from all upper left teeth"
-      description = "composite application after caries removal from all upper left teeth"
-      alt_ar = "حشو ليزر تحميلي علي الاسنان الاماميه بعد ازاله جميع التسوس"
-      description_ar = "حشو ليزر تحميلي علي الاسنان الاماميه بعد ازاله جميع التسوس"
+      photo = "https://github.com/user-attachments/assets/10c07190-9c8d-4503-babf-1ec32f1b97cf"
+      alt = "Anterior Teeth class IV composite"
+      description = "Treatment with composite"
+      alt_ar = "تجميل الابتسامة بالحشو الليزر الابيض الكمبوزيت"
+      description_ar = "تجميل الابتسامة بالحشو التجميلى"
 
+#التركيبات الثابته
   [[params.clinical_cases]]
     enabled = true
-    category = "prosthesis (fixed , prosthesis , implant )"
-    category_ar = "التركيبات (الزراعة - الثابته - المتحركة)"
+    category = "fixed prosthodontics"
+    category_ar = "التركيبات الثابته"
     
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/c9e94c2e-9a60-4cb7-adde-bfe2453ec703"
-      alt = "PFM crown for lower right 4"
-      description = "PFM crown for lower right 4"
-      alt_ar = "كراون علي الضرس السفلي"
-      description_ar = "كراون علي الضرس السفلي"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/9962228b-74c3-43af-9dc1-da164d774b49"
-      alt = "Removable partial denture for upper & lower arches"
-      description = "Removable partial denture for upper & lower arches"
-      alt_ar = "تركيبه متحركه علويه وسفليه لمريض فقد معظم اسنانه"
-      description_ar = "تركيبه متحركه علويه وسفليه لمريض فقد معظم اسنانه"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/6ac50189-1469-4a01-8a04-2e4921b8c6fb"
-      alt = "Implant case for upper right 5"
-      description = "Implant case for upper right 5"
-      alt_ar = "حاله زراعه للضرس العلوي رقم 5"
-      description_ar = "حاله زراعه للضرس العلوي رقم 5"
+      photo = "https://github.com/user-attachments/assets/18a41d89-0b74-485d-9423-cef550e7b0cf"
+      alt = "4 E-MAX Crowns"
+      description = "4 E-MAX Crowns"
+      alt_ar = "اربعة تركيبات ثابته للاسنان الامامية"
+      description_ar = "اربعة تركيبات ثابته للاسنان الامامية"
 
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f3970e11-f3bc-44fb-b5b2-199e881c18b7"
+      alt = "bridge for missed upper premolar"
+      description = "bridge for missed upper premolar"
+      alt_ar = "كوبرى لتعويض ضرس فى الفك العلوى"
+      description_ar = "كوبرى لتعويض ضرس فى الفك العلوى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f89ebebc-2e58-478a-b784-24656b613ed5"
+      alt = "bridge for missed lower molar"
+      description = "bridge for missed lower molar"
+      alt_ar = "كوبرى لتعويض ضرس فى الفك السفلى"
+      description_ar = "كوبرى لتعويض ضرس فى الفك السفلى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/109fc3e5-10a3-4bd0-b733-2cb12c72adf3"
+      alt = "bridge for missed upper 2 pmolars"
+      description = "bridge for missed upper 2 pmolars"
+      alt_ar = "كوبرى لتعويض ضرسين فى الفك العلوى"
+      description_ar = "كوبرى لتعويض ضرسين فى الفك العلوى"      
+      
+      #حشو العصب
   [[params.clinical_cases]]
     enabled = true
-    category = "Endodontics"
+    category = "Endodontic Treatment"
     category_ar = "حشو العصب"
     
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/9fbf0367-9daf-4458-be19-8dc897eab15a"
-      alt = "Retreatment of upper right 6"
-      description = "Retreatment of upper right 6"
-      alt_ar = "اعاده حشو عصب للضرس العلوي رقم 6"
-      description_ar = "اعاده حشو عصب للضرس العلوي رقم 6"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/7b1ef960-137c-4e5a-bcf2-64a3d8659d2a"
-      alt = "Root canal treatment of lower right 6"
-      description = "Root canal treatment of lower right 6"
-      alt_ar = "حشو عصب للضرس السفلي رقم 6"
-      description_ar = "حشو عصب للضرس السفلي رقم 6"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/e2a97f81-67a6-4d0e-8810-34f49175569c"
-      alt = "Root canal treatment of lower right 6"
-      description = "Root canal treatment of lower right 6"
-      alt_ar = "حشو عصب للضرس السفلي رقم 6"
-      description_ar = "حشو عصب للضرس السفلي رقم 6"
+      photo = "https://github.com/user-attachments/assets/0ecb33cb-22b5-424c-8b04-60f6178d71d9"
+      alt = "Endo lower Premolar"
+      description = "Endo lower Premolar"
+      alt_ar = "حشو عصب لضرس بالفك السفلى"
+      description_ar = "حشو عصب لضرس بالفك السفلى"
       
   # Contact Section
   [params.contact]
-    phone = "+201080058088"
-    whatsapp = "+201080058088"
-    email = "hossamlotfy4014@gmail.com"
-    instagram = "https://www.instagram.com/dr.hossamlotfy?igsh=NnU4Y3d3MjgzbDA%3D&utm_source=qr"
-    facebook = "https://www.facebook.com/share/1Aa7fg8RXP/?mibextid=wwXIfr"
-    linkedin = ""
+    phone = "+201271476215"
+    whatsapp = "+201271476215"
+    email = "michaelnabilofficial1@gmail.com"
+    instagram = "https://www.instagram.com/michaelnabilofficial/"
+    facebook = "https://www.facebook.com/Micky1000000"
+    linkedin = "https://linkedin.com/in/yourprofile"
     
     [params.contact.location]
       enabled = true
-      address = "القاهره شبرا مصر محطه مترو سانت تريزا امام حلواني العبد"
-      latitude = "30.085930533139077"
-      longitude = "31.245736311768173"
+      address = "مستشفيات جامعة الزقازيق -الزقازيق-الشرقية"
+      latitude = "30.585070727964393"
+      longitude = "31.487296675825437"
 
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "د. حسام لطفى"
-    tagline = "أخصائي طب وجراحة الفم والأسنان"
-    graduation = "تخرج 2021 - كلية طب الأسنان"
-    profile_image_alt = "صورة الملف الشخصي للدكتور حسام لطفى"
+    name = "د. مايكل نبيل"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
     
     [params.ar.hero.current_position]
-      role = "أخصائي طب وجراحة الفم والأسنان"
-      clinic = "مستشفيات جامعة الزقازيق"
+      role = "طبيب امتياز"
+      clinic = "مستشفى جامعة الزقازيق"
   
 [params.ar.skills]
     clinical = [
-      "الحشوات التجميلة،زراعة الاسنان،علاج الجذور،الجراحة،التركيبات الثابتة والمتحركة،طب أسنان الأطفال"
+      "جراحة الفم",
+      "علاج الجذور",
+      "التركيبات الثابتة والمتحركة",
+      "طب الأسنان التجميلي"
     ]
     
     digital = [
-      "Exocad",
-      "Cadcam",
-      "Digital smile design",
-      "Dental photography",
-      "Digital marketing",
-      "Photoshope",
-      "Powerpoint"
+      "برمجة وإنشاء ملفات الأعمال السنية بالكامل",
+      "برمجة وإنشاء مواقع طب الأسنان بالكامل",
+      "التوثيق الرقمي",
+      "مايكروسوفت باوربوينت (احترافي)",
+      "مايكروسوفت إكسل"
     ]
     
     soft = [
-      "القدرة على تقديم رعاية ممتازة للمرضى والتواصل بفعالية."
+      "إدارة مرضى الأطفال",
+      "التواصل مع المرضى",
+      "تخطيط العلاج",
+      "إدارة الوقت",
+      "القيادة الجماعية",
+      "الاستجابة للطوارئ"
     ]
     
   
   [params.ar.education]
-    university = "جامعة الزقازيق"
+    university = "الجامعة الروسسية المصرية - كلية طب الأسنان"
     
     [params.ar.education.master]
       title = "ماجستير في طب الفم"
@@ -289,12 +322,25 @@ defaultContentLanguage = "en"
       title = "دكتوراه في علوم الأسنان"
     
     [[params.ar.education.timeline]]
-      year = "2016"
       event = "بدء الدراسة في كلية طب الأسنان"
     
     [[params.ar.education.timeline]]
-      year = "2021"
-      event = "التخرج من كلية طب الأسنان"  
+      event = "بدء العمل في التسويق لشركات طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "قائد فريق المبيعات لشركات طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "تخصص في تصميم عروض بوربوينت الاحترافية"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "فترة التدريب (الامتياز) في المستشفى الجامعي"
+
+    [[params.ar.education.timeline]]
+      event = "الرئيس التنفيذي لوكالة DentalHubs"  
 
   [params.ar.contact.location]
     address = "123 الشارع الرئيسي، المدينة، البلد"
