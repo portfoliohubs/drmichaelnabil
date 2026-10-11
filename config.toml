@@ -291,6 +291,9 @@ defaultContentLanguage = "en"
       year = "2026"
       event = "Founder & Web Developer of portfolioHubs"
     
+[[params.education.timeline]]
+      year = "2026"
+      event = "Founder & Web Developer of portfolioHubs" 
     # Certificates (images will be uploaded via GitHub issues)
     # [[params.education.certificates]]
     #   title = "Advanced Endodontics Course"
