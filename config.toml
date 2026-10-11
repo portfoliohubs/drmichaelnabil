@@ -288,12 +288,12 @@ defaultContentLanguage = "en"
       event = "Internship at University Hospital"
 
     [[params.education.timeline]]
-      year = "2026"
-      event = "Founder & Web Developer of portfolioHubs"
+      year = "2025-2026"
+      event = "Founder & Developer of portfolioHubs"
     
 [[params.education.timeline]]
       year = "2026"
-      event = "Founder & Web Developer of portfolioHubs" 
+      event = "Founder & Developer of smika(smika.app)" 
     # Certificates (images will be uploaded via GitHub issues)
     # [[params.education.certificates]]
     #   title = "Advanced Endodontics Course"
